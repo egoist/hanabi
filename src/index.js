@@ -7,6 +7,9 @@ export default function (input, {
   const cache = {}
   return input
   .replace(/[a-zA-Z0-9_\u0392-\u03c9\u0400-\u04FF]+|[\u4E00-\u9FFF\u3400-\u4dbf\uf900-\ufaff\u3040-\u309f\uac00-\ud7af\u0400-\u04FF]+|\w+|</g, m => {
+    if (m === '<') {
+      return '&lt;'
+    }
     let color
     if (cache[m]) {
       color = cache[m]
@@ -14,7 +17,7 @@ export default function (input, {
       color = colors[index]
       cache[m] = color
     }
-    const out = `<span style="color: #${color}">${m === '<' ? '&lt;' : m}</span>`
+    const out = `<span style="color: #${color}">${m}</span>`
     index = ++index % colors.length
     return out
   })
