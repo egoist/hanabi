@@ -46,6 +46,9 @@
     "semicolon": false,
     "envs": [
       "jest"
+    ],
+    "ignores": [
+      "example/**"
     ]
   }
 }
