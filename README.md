@@ -2,6 +2,10 @@
 
 [![NPM version](https://img.shields.io/npm/v/hanabi.svg?style=flat)](https://npmjs.com/package/hanabi) [![NPM downloads](https://img.shields.io/npm/dm/hanabi.svg?style=flat)](https://npmjs.com/package/hanabi) [![Build Status](https://img.shields.io/circleci/project/egoist/hanabi/master.svg?style=flat)](https://circleci.com/gh/egoist/hanabi) [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)
 
+How does it look like? Hmmm:
+
+<img src="https://cloud.githubusercontent.com/assets/8784712/23251159/2f3c2078-f9e7-11e6-8897-4316b1f64d23.png" width="500" alt="preview" />
+
 ## Install
 
 ```bash
