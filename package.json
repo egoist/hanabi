@@ -1,6 +1,6 @@
 {
   "name": "hanabi",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Highlight any code, in a colorful way.",
   "repository": {
     "url": "egoist/hanabi",
