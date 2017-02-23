@@ -11,7 +11,7 @@
 </template>
 
 <script>
-  import hanabi from 'hanabi'
+  import hanabi from '../src'
   import code from '!raw-loader!./examples/vue.js'
 
   export default {

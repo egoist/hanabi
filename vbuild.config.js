@@ -4,12 +4,5 @@ module.exports = {
   homepage: '/hanabi/',
   html: {
     title: 'Hanabi: Highlight any code, in a colorful way'
-  },
-  webpack: {
-    resolve: {
-      alias: {
-        hanabi: 'src/index.js'
-      }
-    }
   }
 }
