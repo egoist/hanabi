@@ -4,6 +4,8 @@
       <option value="vue">Choose another example</option>
       <option value="preact">Preact</option>
       <option value="next">Next.js</option>
+      <option value="python">Python</option>
+      <option value="golang">Golang</option>
     </select>
     <pre><code v-html="code"></code></pre>
     <pre><code v-html="footer"></div></pre>
@@ -22,7 +24,9 @@
         examples: {
           vue: hanabi(code),
           preact: import('!raw-loader!./examples/preact'),
-          next: import('!raw-loader!./examples/next')
+          next: import('!raw-loader!./examples/next'),
+          python: import('!raw-loader!./examples/python.py'),
+          golang: import('!raw-loader!./examples/golang.go')
         }
       }
     },
