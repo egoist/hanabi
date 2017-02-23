@@ -8,6 +8,8 @@
 yarn add hanabi
 ```
 
+CDN: https://unpkg.com/hanabi/dist/
+
 ## Usage
 
 ```js
