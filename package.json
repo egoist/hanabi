@@ -1,0 +1,51 @@
+{
+  "name": "hanabi",
+  "version": "0.0.0",
+  "description": "Highlight any code, in a colorful way.",
+  "repository": {
+    "url": "egoist/hanabi",
+    "type": "git"
+  },
+  "main": "dist/hanabi.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest && npm run lint && npm run build",
+    "lint": "xo",
+    "build": "bili --format umd --module-name hanabi --compress",
+    "example": "vbuild -dc",
+    "build:example": "vbuild -c",
+    "deploy": "npm run build:example && gh-pages -d dist-example"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "presets": [
+          "es2015"
+        ]
+      }
+    }
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "bili": "^0.14.0",
+    "gh-pages": "^0.12.0",
+    "jest-cli": "^18.1.0",
+    "raw-loader": "^0.5.1",
+    "vbuild": "^6.16.4",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": false,
+    "envs": [
+      "jest"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+module.exports = {
+  entry: 'example/index.js',
+  dist: 'dist-example',
+  html: {
+    title: 'Hanabi: Highlight any code, in a colorful way'
+  },
+  webpack: {
+    resolve: {
+      alias: {
+        hanabi: 'src/index.js'
+      }
+    }
+  }
+}
