@@ -4,7 +4,8 @@
 
 How does it look like? Hmmm:
 
-<img src="https://cloud.githubusercontent.com/assets/8784712/23251159/2f3c2078-f9e7-11e6-8897-4316b1f64d23.png" width="500" alt="preview" />
+<img width="520" alt="2017-02-23 5 52 25" src="https://cloud.githubusercontent.com/assets/8784712/23253841/dff13e90-f9f0-11e6-9b56-543f4070855e.png">
+
 
 ## Install
 
