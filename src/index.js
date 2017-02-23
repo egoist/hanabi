@@ -5,7 +5,8 @@ export default function (input, {
 } = {}) {
   let index = 0
   return input.replace(/./g, m => {
+    const out = `<span style="color: #${colors[index]}">${m}</span>`
     index = ++index % colors.length
-    return `<span style="color: #${colors[index]}">${m}</span>`
+    return out
   })
 }
