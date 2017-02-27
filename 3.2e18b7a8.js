@@ -1,2 +1,0 @@
-webpackJsonp([3,6],{12:function(n,t){n.exports='package main\n\nimport "fmt"\n\n// fib returns a function that returns\n// successive Fibonacci numbers.\nfunc fib() func() int {\n\ta, b := 0, 1\n\treturn func() int {\n\t\ta, b = b, a+b\n\t\treturn a\n\t}\n}\n\nfunc main() {\n\tf := fib()\n\t// Function calls are evaluated left-to-right.\n\tfmt.Println(f(), f(), f(), f(), f())\n}\n'}});
-//# sourceMappingURL=3.2e18b7a8.js.map
