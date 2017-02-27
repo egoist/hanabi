@@ -8,7 +8,7 @@
       <option value="golang">Golang</option>
     </select>
     <pre><code v-html="code"></code></pre>
-    <pre><code v-html="footer"></div></pre>
+    <pre><code v-html="footer"></code></pre>
   </div>
 </template>
 

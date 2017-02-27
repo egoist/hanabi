@@ -8,6 +8,12 @@
   import hanabi from 'hanabi'
   import code from '!raw-loader!example/App.vue'
 
+  /**
+   * hello world!
+   */
+
+  // How is it going?
+
   export default {
     data() {
       return {
