@@ -24,7 +24,7 @@ const hanabi = require('hanabi')
 hanabi(code)
 ```
 
-Demo: https://egoistian.com/hanabi/
+Demo: https://egoist.moe/hanabi/
 
 ## Contributing
 
