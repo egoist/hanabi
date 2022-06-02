@@ -22,7 +22,7 @@ const hanabi = require("hanabi");
 hanabi(code);
 ```
 
-Demo: hhttps://hanabi.egoist.sh/
+Demo: https://hanabi.egoist.sh/
 
 ## Contributing
 
