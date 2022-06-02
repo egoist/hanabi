@@ -16,7 +16,7 @@
     "lint": "xo",
     "build": "bili --format umd --module-name hanabi --compress",
     "example": "vbuild example/index.js -d",
-    "build:example": "vbuild example/index.js --homepage /hanabi/ --dist dist-example",
+    "build:example": "vbuild example/index.js --dist dist-example",
     "deploy": "npm run build:example && gh-pages -d dist-example"
   },
   "author": "egoist <0x142857@gmail.com>",
