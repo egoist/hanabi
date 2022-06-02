@@ -6,8 +6,6 @@ How does it look like? Hmmm:
 
 <img width="530" alt="2017-02-23 6 07 22" src="https://cloud.githubusercontent.com/assets/8784712/23254411/f8768838-f9f2-11e6-87fe-76055c0b7d1c.png">
 
-
-
 ## Install
 
 ```bash
@@ -19,12 +17,12 @@ CDN: https://unpkg.com/hanabi/dist/
 ## Usage
 
 ```js
-const hanabi = require('hanabi')
+const hanabi = require("hanabi");
 
-hanabi(code)
+hanabi(code);
 ```
 
-Demo: hhttps://hanabi.egoist.rocks/
+Demo: hhttps://hanabi.egoist.sh/
 
 ## Contributing
 
@@ -34,10 +32,9 @@ Demo: hhttps://hanabi.egoist.rocks/
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-
 ## Author
 
 **hanabi** © [egoist](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by egoist with help from contributors ([list](https://github.com/egoist/hanabi/contributors)).
 
-> [egoist.moe](https://egoist.moe) · GitHub [@egoist](https://github.com/egoist) · Twitter [@_egoistlily](https://twitter.com/_egoistlily)
+> [egoist.moe](https://egoist.moe) · GitHub [@egoist](https://github.com/egoist) · Twitter [@\_egoistlily](https://twitter.com/_egoistlily)
