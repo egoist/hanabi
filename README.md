@@ -22,7 +22,7 @@ const hanabi = require("hanabi");
 hanabi(code);
 ```
 
-Demo: https://hanabi.egoist.sh/
+Demo: https://hanabi.egoist.dev/
 
 ## Contributing
 
@@ -37,4 +37,4 @@ Demo: https://hanabi.egoist.sh/
 **hanabi** © [egoist](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by egoist with help from contributors ([list](https://github.com/egoist/hanabi/contributors)).
 
-> [egoist.moe](https://egoist.moe) · GitHub [@egoist](https://github.com/egoist) · Twitter [@\_egoistlily](https://twitter.com/_egoistlily)
+> [egoist.dev](https://egoist.dev) · GitHub [@egoist](https://github.com/egoist) · Twitter [@\localhost_5173](https://twitter.com/localhost_5173)
